@@ -1,4 +1,31 @@
 body{
     background: #02010a;
     font-family: Dancing Script;
+    color: white;
+}
+
+div contenido{
+    width: 900px;
+}
+
+.header{
+    background: #5b7989;
+    border-radius: 10px;
+    height: 100px;
+    
+}
+
+.titulo{
+    color: white;
+    text-shadow: 2px #02010a;
+    vertical-align: middle;
+    float: left;
+    width: 75%;
+}
+
+.menu a{
+    color: red;
+    float: right;
+    width: 25%;
+    text-decoration: none;
 }
