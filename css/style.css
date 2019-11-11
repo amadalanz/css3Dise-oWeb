@@ -75,11 +75,15 @@ nav.menu a.nav:hover{
     padding: 20px;
 }
 
-img.img1{
-    width: 50%;
+img{
+    width: 70%;
     margin: auto;
     display: block;
     box-shadow: 2px 2px #02010a;
+}
+
+img.img1{
+    width: 50%;
 }
 
 .contenido .container .seccionDos{
@@ -105,9 +109,6 @@ div.column2{
 
 img.img2, img.img3{
     width: 60%;
-    margin: auto;
-    display: block;
-    box-shadow: 2px 2px #02010a;
 }
 
 img.img2{
@@ -141,6 +142,24 @@ div a.link{
     text-align: center;
 }
 
+/* Sección de Galería (paisajes.html) */
+
+.galeria1 img, .galeria2 img, .galeria3 img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.blur{
+    -webkit-filter: blur(10px);
+}
+
+img.grises{
+    -webkit-filter: grayscale(100%);
+}
+
+img.sepia{
+    -webkit-filter: sepia(90%);
+}
 
 /* Sección del Footer */
 .footer{
@@ -179,15 +198,10 @@ div a.link{
 }
 
 
-
-
-
-
-
 /* Declaración de mediaqueries */
 @media screen and (min-width: 900px){
     .contenido{
-        width: 85%;
+        width: 900px;
     }
 }
 
@@ -213,6 +227,7 @@ div a.link{
     div.contenido div.header nav.menu{
         order: 2;
         margin: 0px;
+        padding-right: 0px;
         text-align: center;
     }
 
@@ -233,6 +248,21 @@ div a.link{
         display: flex;
         flex-flow: column wrap;
         text-align: center;
+    }
+    .footer .contacto{
+        width: 100%;
+    }
+    
+    .footer .termino{
+        width: 100%;
+    }
+    
+    .footer .rrss{
+        width: 100%;
+    }
+    
+    .footer .derechos{
+        width: 100%;
     }
 }
 
